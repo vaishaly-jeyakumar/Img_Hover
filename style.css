@@ -1,0 +1,51 @@
+.bg-style{
+    background-color: blue;
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    transition: 1s; 
+    transition-timing-function: ease-in-out;
+  
+}
+
+.child{
+    
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transition: 1s; 
+    transition-timing-function: ease-in-out;
+}
+   
+
+.hov-style:hover .bg-style{
+    top: 30px;
+    left: 30px;
+    transition: 1s; 
+    transition-timing-function: ease-in-out;
+}
+.hov-style:hover .child{
+
+    top: -30px;
+    left: -30px;
+    transition: 1s; 
+    transition-timing-function: ease-in-out;
+}
+.box{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(68, 210, 210);
+    overflow: hidden;
+
+}
+.img-hover{
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+.img-hover:hover{
+    transform: scale(1.1) rotate(5deg);
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
